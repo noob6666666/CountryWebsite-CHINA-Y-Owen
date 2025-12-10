@@ -20,7 +20,7 @@
    font-size:larger;
 }
 nav a{
-   background-color:#008000;
+   background-color:#800000;
    display:flex;
    flex:1;
    padding:20px;
@@ -31,7 +31,7 @@ nav a{
 }
 nav a:hover{
    background-color:white;
-   color:#008000;
+   color:#ff0000;
    transition:0.5s;
 }
 nav{
@@ -74,11 +74,27 @@ a{
    border-right-color: grey;
    flex:0.7;
 }
-#links a{
-   padding:5px;
-   margin:5px;
-   color:black;
+
+
+
+#content-container {
+   background-image: url('RUSSIA-BACKGROUND.jpg'); 
+   background-size: cover; 
+   background-position: center; 
+   background-repeat: no-repeat; 
+   padding: 20px;
+   height: 750px;
+   display: flex;
+   flex: 1;
 }
-#middle{
-   display:flex;
+
+
+.Welcome {
+   color: rgb(150, 0, 0);
+   font-size: 100px;
 }
+
+#content-container h1{
+   background-color: rgb(0, 0, 0);
+}
+
